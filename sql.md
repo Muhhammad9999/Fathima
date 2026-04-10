@@ -116,6 +116,3 @@ SELECT SYSTEM$CLUSTERING_INFORMATION('MY_DATABASE.PUBLIC.CUSTOMER_S21') AS info;
 
 
 
-https://github.com': git push --set-upstream origin master
-
-https://git%20push%20--set-upstream%20origin%20master@github.com':
