@@ -85,3 +85,21 @@ scp -r my_folder/ john@192.168.1.10:/home/john/
 
 -r means recursive — copies the folder and everything inside it
 Without -r, SCP only copies single files
+
+
+
+
+
+--git config --global user.name "Your Name"
+--git config --global user.email "your-email@example.com"
+
+git remote add origin https://github.com/Muhhammad9999/Fathima
+git branch -M main
+git push -u origin main
+
+git config --global user.name "Shafi Mohammed"
+
+git config --global user.name
+git config --global user.email
+
+git commit -m "ok"
