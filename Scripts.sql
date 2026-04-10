@@ -102,4 +102,34 @@ git config --global user.name "Shafi Mohammed"
 git config --global user.name
 git config --global user.email
 
+git add .
 git commit -m "ok"
+git push -u origin main
+
+/* 
+Ansible is an open-source IT automation tool used for:
+
+Configuration management — set up and maintain servers consistently
+Application deployment — deploy apps across many servers at once
+Orchestration — coordinate multi-step processes across systems
+Provisioning — spin up cloud infrastructure
+
+
+# Key features:
+Feature	Description
+Agentless	No software needed on remote machines — uses SSH
+Playbooks	Tasks written in simple YAML files
+Idempotent	Running it multiple times produces the same result
+Inventory	Define groups of servers to manage
+Modules	3000+ built-in modules for common tasks
+
+How it works:
+You write a playbook (YAML) describing the desired state
+Ansible connects to remote machines via SSH
+Executes tasks and reports results
+No agent installation required on target machines
+It's widely used in DevOps for managing infrastructure at scale.
+ansible all -m ping                       # test connectivity
+ansible-playbook deploy.yml               # run a playbook
+ansible all -a "uptime"                   # run a command on all hosts
+*/
